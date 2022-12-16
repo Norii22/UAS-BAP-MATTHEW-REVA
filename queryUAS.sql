@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW views_transaction_detail AS SELECT ts.*, u.name as user_name FROM transactions as ts join users as u on u.id = ts.user_id
